@@ -1,0 +1,39 @@
+name: milex
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.4
+  shared_preferences: ^2.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/milex_logo.png
+    - assets/images/demo_sports.png
+    - assets/images/demo_sports_blue.png
+    - assets/images/demo_sedan.png
+    - assets/images/demo_suv.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/milex_logo.png"
+  adaptive_icon_background: "#060814"
+  adaptive_icon_foreground: "assets/images/milex_logo.png"
+  # Keep the complete square artwork inside the adaptive icon safe area.
+  adaptive_icon_foreground_inset: 30
+
+
